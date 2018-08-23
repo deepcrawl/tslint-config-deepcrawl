@@ -1,0 +1,23 @@
+{
+  "name": "tslint-config-deepcrawl",
+  "version": "0.0.0",
+  "description": "tslint rules used by DeepCrawl developers",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepcrawl/tslint-config-deepcrawl.git"
+  },
+  "author": "DeepCrawl",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/deepcrawl/tslint-config-deepcrawl/issues"
+  },
+  "homepage": "https://github.com/deepcrawl/tslint-config-deepcrawl#readme",
+  "dependencies": {
+    "tslint-clean-code": "^0.2.7",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-consistent-codestyle": "^1.13.3",
+    "tslint-no-circular-imports": "^0.5.2",
+    "tslint-sonarts": "^1.7.0"
+  }
+}
