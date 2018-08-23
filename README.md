@@ -1,6 +1,6 @@
 # TSLint Config DeepCrawl
 
-Shared TypeScript linting ruleset used by DeepCrawl developers.
+Shared TSLint ruleset used by DeepCrawl developers.
 
 ## How to install the latest version
 
