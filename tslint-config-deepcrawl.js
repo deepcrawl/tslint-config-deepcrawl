@@ -1,4 +1,4 @@
-{
+module.exports = {
   "extends": [
     "tslint:latest",
     "tslint-config-prettier",
