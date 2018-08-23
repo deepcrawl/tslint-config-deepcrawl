@@ -10,7 +10,7 @@ npm install git://github.com/deepcrawl/tslint-config-deepcrawl.git
 
 ## How to install a specific version
 
-Every update will be tagged to ensure clarity of what version of the rules is your project using.
+Every update is tagged to ensure clarity of what version of the rules is your project using.
 
 ```javascript
 npm install git://github.com/deepcrawl/tslint-config-deepcrawl.git#1.0.0
