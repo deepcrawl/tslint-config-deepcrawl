@@ -1,5 +1,5 @@
 module.exports = {
-  "extends": [
+  extends: [
     "tslint:latest",
     "tslint-config-prettier",
     "tslint-no-circular-imports",
@@ -7,18 +7,19 @@ module.exports = {
     "tslint-consistent-codestyle",
     "tslint-sonarts"
   ],
-  "rules": {
-
+  rules: {
     // tslint standard rules begin
+    typedef: [true, "call-signature", "property-declaration"],
     "variable-name": [true, "check-format", "allow-leading-underscore"],
+    "no-console": true,
     "member-ordering": false,
     "no-shadowed-variable": false,
     "object-literal-sort-keys": false,
     "no-submodule-imports": false,
-    "max-classes-per-file": [true, 2],
+    "max-classes-per-file": [true, 1],
     "array-type": [true, "array"],
     "ban-types": {
-      "options": [
+      options: [
         ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
         [
           "Function",
@@ -31,8 +32,8 @@ module.exports = {
     },
     "class-name": true,
     "comment-format": [true, "check-space"],
-    "curly": [true, "ignore-same-line"],
-    "indent": [true, "spaces"],
+    curly: [true, "ignore-same-line"],
+    indent: [true, "spaces"],
     "interface-name": [true, "always-prefix"],
     "interface-over-type-literal": true,
     // tslint standard rules end
@@ -41,15 +42,23 @@ module.exports = {
     "prefer-while": true,
     "early-exit": true,
     "no-as-type-assertion": true,
+    "no-accessor-recursion": true,
+    "no-collapsible-if": true,
     "object-shorthand-properties-first": true,
     "no-unnecessary-else": true,
+    "no-else-after-return": true,
+    "no-unnecessary-type-annotation": true,
+    "prefer-const-enum": true,
+    "no-return-undefined": true,
     "no-collapsible-if": true,
+    "no-unused": true,
+    "prefer-while": true,
     // tslint-consistent-codestyle end
 
     // tslint-clean-code begin
     "id-length": false,
     "try-catch-first": true,
-    "max-func-args": true,
+    "max-func-args": [true, 3],
     "min-class-cohesion": true,
     "newspaper-order": true,
     "no-flag-args": true,
@@ -62,19 +71,59 @@ module.exports = {
     // tslint-clean-code end
 
     // tslint-sonarts begin
-    "no-invalid-await": true,
-    "cognitive-complexity": true,
+    "no-identical-conditions": true,
+    "no-misleading-array-reverse": true,
+    "no-useless-increment": true,
+    "no-all-duplicated-branches": true,
+    "no-case-with-or": true,
+    "no-collection-size-mischeck": true,
+    "no-element-overwrite": true,
+    "no-empty-destructuring": true,
+    "no-identical-expressions": true,
+    "no-ignored-initial-value": true,
+    "no-ignored-return": true,
+    "no-in-misuse": true,
+    "no-self-assignment": true,
+    "no-unthrown-error": true,
+    "no-use-of-empty-return-value": true,
+    "no-useless-intersection": true,
+    "use-primitive-type": true,
+    "no-dead-store": true,
     "consecutive-overloads": true,
     "max-union-size": [true, 3],
     "mccabe-complexity": true,
+    "no-accessor-field-mismatch": true,
     "no-array-delete": true,
-    "no-big-function": true,
+    "no-big-function": [true, 15],
+    "no-duplicate-in-composite": true,
+    "no-gratuitous-expressions": true,
+    "no-identical-functions": true,
+    "no-inconsistent-return": true,
+    "no-invalid-await": false,
+    "cognitive-complexity": true,
+    "consecutive-overloads": true,
+    "max-union-size": [true, 3],
+    "no-multiline-string-literals": true,
+    "no-nested-incdec": true,
+    "no-nested-template-literals": true,
+    "no-redundant-boolean": true,
+    "no-redundant-jump": true,
+    "no-unconditional-jump": true,
+    "no-redundant-parentheses": true,
+    "no-same-line-conditional": true,
+    "no-undefined-argument": true,
+    "no-unenclosed-multiline-block": true,
+    "no-unused-array": true,
+    "prefer-default-last": true,
     "no-duplicate-string": true,
     "no-hardcoded-credentials": true,
+    "prefer-immediate-return": true,
+    "prefer-promise-shorthand": true,
     "no-inconsistent-return": true,
     "no-nested-incdec": true,
     "no-nested-template-literals": true,
-    "prefer-promise-shorthand": true
+    "prefer-promise-shorthand": true,
+    "use-type-alias": true
     // tslint-sonarts end
   }
-}
+};

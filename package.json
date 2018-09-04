@@ -17,7 +17,6 @@
     "tslint-clean-code": "^0.2.7",
     "tslint-config-prettier": "^1.15.0",
     "tslint-consistent-codestyle": "^1.13.3",
-    "tslint-no-circular-imports": "^0.5.2",
     "tslint-sonarts": "^1.7.0"
   }
 }
