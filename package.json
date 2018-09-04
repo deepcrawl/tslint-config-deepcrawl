@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-deepcrawl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tslint rules used by DeepCrawl developers",
   "main": "tslint-config-deepcrawl.js",
   "repository": {
