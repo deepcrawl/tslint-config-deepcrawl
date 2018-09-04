@@ -58,7 +58,7 @@ module.exports = {
     "id-length": false,
     "try-catch-first": true,
     "max-func-args": [true, 3],
-    "min-class-cohesion": true,
+    "min-class-cohesion": false,
     "newspaper-order": true,
     "no-flag-args": true,
     "no-for-each-push": true,
