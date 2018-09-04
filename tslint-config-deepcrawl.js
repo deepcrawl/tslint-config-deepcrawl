@@ -2,7 +2,6 @@ module.exports = {
   "extends": [
     "tslint:latest",
     "tslint-config-prettier",
-    "tslint-no-circular-imports",
     "tslint-clean-code",
     "tslint-consistent-codestyle",
     "tslint-sonarts"
