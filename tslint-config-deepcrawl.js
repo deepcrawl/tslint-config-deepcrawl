@@ -29,6 +29,15 @@ module.exports = {
         ["String", "Avoid using the `String` type. Did you mean `string`?"]
       ]
     },
+    ban: [
+      true,
+      "eval",
+      {
+        name: ["Object.assign"],
+        message:
+          "Object.assign allows getting around type checking. Consider another solution."
+      }
+    ],
     "class-name": true,
     "comment-format": [true, "check-space"],
     curly: [true, "ignore-same-line"],
