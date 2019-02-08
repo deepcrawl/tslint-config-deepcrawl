@@ -31,9 +31,8 @@ module.exports = {
     },
     ban: [
       true,
-      "eval",
       {
-        name: ["Object.assign"],
+        name: ["Object", "assign"],
         message:
           "Object.assign allows getting around type checking. Consider another solution."
       }
