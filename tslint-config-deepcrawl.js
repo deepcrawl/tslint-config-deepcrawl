@@ -65,7 +65,7 @@ module.exports = {
     // tslint-clean-code begin
     "id-length": false,
     "try-catch-first": true,
-    "max-func-args": [true, 3],
+    "max-func-args": [true, 2],
     "min-class-cohesion": false,
     "newspaper-order": true,
     "no-flag-args": true,
@@ -109,7 +109,6 @@ module.exports = {
     "no-invalid-await": false,
     "cognitive-complexity": true,
     "consecutive-overloads": true,
-    "max-union-size": [true, 3],
     "no-multiline-string-literals": true,
     "no-nested-incdec": true,
     "no-nested-template-literals": true,
