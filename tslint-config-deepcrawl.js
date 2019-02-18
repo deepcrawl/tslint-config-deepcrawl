@@ -117,6 +117,7 @@ module.exports = {
     "no-redundant-parentheses": true,
     "no-same-line-conditional": true,
     "no-undefined-argument": true,
+    "argument-order": false,
     "no-unenclosed-multiline-block": true,
     "no-unused-array": true,
     "prefer-default-last": true,
