@@ -106,7 +106,7 @@ module.exports = {
     "no-identical-functions": true,
     "no-inconsistent-return": true,
     "no-invalid-await": false,
-    "cognitive-complexity": true,
+    "cognitive-complexity": [true, 8],
     "consecutive-overloads": true,
     "no-multiline-string-literals": true,
     "no-nested-incdec": true,
