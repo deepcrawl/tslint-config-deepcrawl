@@ -39,6 +39,7 @@ module.exports = {
     indent: [true, "spaces"],
     "interface-name": [true, "always-prefix"],
     "interface-over-type-literal": true,
+    "no-use-before-declare": true,
     // tslint standard rules end
 
     // tslint-consistent-codestyle begin
