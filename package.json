@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-deepcrawl",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "tslint rules used by DeepCrawl developers",
   "main": "tslint-config-deepcrawl.js",
   "repository": {
@@ -16,7 +16,7 @@
   "dependencies": {
     "tslint-clean-code": "^0.2.9",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-consistent-codestyle": "^1.15.0",
+    "tslint-consistent-codestyle": "^1.15.1",
     "tslint-sonarts": "^1.9.0"
   }
 }
