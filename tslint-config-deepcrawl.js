@@ -40,7 +40,6 @@ module.exports = {
     "interface-name": [true, "always-prefix"],
     "interface-over-type-literal": true,
     "await-promise": true,
-    "no-use-before-declare": true,
     // tslint standard rules end
 
     // tslint-consistent-codestyle begin
