@@ -55,9 +55,7 @@ module.exports = {
     "no-unnecessary-type-annotation": true,
     "prefer-const-enum": true,
     "no-return-undefined": true,
-    "no-collapsible-if": true,
     "no-unused": true,
-    "prefer-while": true,
     // tslint-consistent-codestyle end
 
     // tslint-clean-code begin
@@ -105,7 +103,6 @@ module.exports = {
     "no-inconsistent-return": true,
     "no-invalid-await": false,
     "cognitive-complexity": [true, 8],
-    "consecutive-overloads": true,
     "no-multiline-string-literals": true,
     "no-nested-incdec": true,
     "no-nested-template-literals": true,
@@ -122,10 +119,6 @@ module.exports = {
     "no-duplicate-string": true,
     "no-hardcoded-credentials": true,
     "prefer-immediate-return": true,
-    "prefer-promise-shorthand": true,
-    "no-inconsistent-return": true,
-    "no-nested-incdec": true,
-    "no-nested-template-literals": true,
     "prefer-promise-shorthand": true,
     "use-type-alias": true
     // tslint-sonarts end
