@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "lib": ["es2017", "es2016"],
+    "outDir": "./dist",
+    "rootDir": "./CustomRules",
+    "baseUrl": "./CustomRules",
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["CustomRules"]
+}

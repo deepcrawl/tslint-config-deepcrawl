@@ -6,6 +6,7 @@ module.exports = {
     "tslint-consistent-codestyle",
     "tslint-sonarts"
   ],
+  rulesDirectory: ["dist/"],
   rules: {
     // tslint standard rules begin
     typedef: [true, "call-signature", "property-declaration"],
@@ -16,6 +17,8 @@ module.exports = {
     "object-literal-sort-keys": false,
     "no-submodule-imports": false,
     "no-floating-promises": true,
+    "no-void": true,
+    "await-promise": true,
     "max-classes-per-file": [true, 1],
     "array-type": [true, "array"],
     "ban-types": {
