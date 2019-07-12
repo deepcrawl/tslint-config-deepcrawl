@@ -15,6 +15,7 @@ module.exports = {
     "no-shadowed-variable": false,
     "object-literal-sort-keys": false,
     "no-submodule-imports": false,
+    "no-floating-promises": true,
     "max-classes-per-file": [true, 1],
     "array-type": [true, "array"],
     "ban-types": {
