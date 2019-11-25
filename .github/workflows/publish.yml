@@ -1,0 +1,21 @@
+name: Publish package
+
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://npm.pkg.github.com/
+          scope: "@deepcrawl"
+      - run: yarn --cwd "workspaces/eventbus/typescript" install --frozen-lockfile
+      - run: yarn --cwd "workspaces/eventbus/typescript" build
+      - run: yarn --cwd "workspaces/eventbus/typescript" publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

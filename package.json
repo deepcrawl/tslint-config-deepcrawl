@@ -1,12 +1,9 @@
 {
-  "name": "tslint-config-deepcrawl",
+  "name": "@deepcrawl/tslint-config",
   "version": "0.1.11",
   "description": "tslint rules used by DeepCrawl developers",
   "main": "tslint-config-deepcrawl.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deepcrawl/tslint-config-deepcrawl.git"
-  },
+  "repository": "github:deepcrawl/tslint-config-deepcrawl",
   "scripts": {
     "build": "tsc"
   },
