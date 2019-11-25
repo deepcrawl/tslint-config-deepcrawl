@@ -7,8 +7,8 @@ class Rule extends Lint.Rules.AbstractRule {
         return this.applyWithFunction(sourceFile, walk);
     }
 }
-Rule.FAILURE_STRING = "Void statement is not a good way to surpress the need for return or await";
 exports.Rule = Rule;
+Rule.FAILURE_STRING = "Void statement is not a good way to surpress the need for return or await";
 // tslint:disable-next-line: no-big-function
 function walk(ctx) {
     return ts.forEachChild(ctx.sourceFile, function cb(node) {

@@ -14,14 +14,21 @@
   },
   "homepage": "https://github.com/deepcrawl/tslint-config-deepcrawl#readme",
   "dependencies": {
-    "tslint": "^5.18.0",
-    "tslint-clean-code": "^0.2.9",
+    "tslint": "^5.20.1",
+    "tslint-clean-code": "^0.2.10",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-consistent-codestyle": "^1.15.1",
+    "tslint-consistent-codestyle": "^1.16.0",
     "tslint-sonarts": "^1.9.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.7.2"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "files": [
+    "tslint.json",
+    "tslint-config-deepcrawl.js",
+    "tsconfig.json",
+    "dist/*",
+    "CustomRules/*"
+  ]
 }
